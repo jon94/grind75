@@ -71,5 +71,5 @@ class Solution:
           return False
       else
         stack.append(c)
-    return True if not stack else False #can only return true if stack is empty.     
+    return True if len(stack) == 0 else False #can only return true if stack is empty.     
 ```
